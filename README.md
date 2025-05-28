@@ -146,6 +146,7 @@ Each model and use case was evaluated using:
    [GitHub Profile](https://github.com/skukreja123)
 
 Areeb – Developer, Model Trainer, Backend Engineer
+ [GitHub Profile](https://github.com/areebbinnadeem)
 
 Mustafa – Developer, Model Trainer, Backend Engineer
  
