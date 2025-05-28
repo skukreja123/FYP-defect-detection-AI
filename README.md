@@ -149,6 +149,7 @@ Areeb – Developer, Model Trainer, Backend Engineer
  [GitHub Profile](https://github.com/areebbinnadeem)
 
 Mustafa – Developer, Model Trainer, Backend Engineer
+[GitHub Profile](https://github.com/MustafaHashmani)
  
 
 ---
