@@ -14,40 +14,41 @@ This repository contains all training experiments and model development pipeline
 
 
 
-🧪 Initial Experiments – Classical Models & Binary/Ternary Patterns
+## 🧪 Initial Experiments – Classical Models & Binary/Ternary Patterns
+
 Before moving to advanced deep learning architectures like ResNet, EfficientNet, YOLO, and Vision Transformers, we began our model development phase with foundational CNN architectures and basic pattern-based classification techniques. This helped us understand the dataset distribution, feature behavior, and model learning limitations.
 
-✅ Models & Techniques Explored:
-Simple CNN (Convolutional Neural Network):
+## ✅ Models & Techniques Explored:
+  Simple CNN (Convolutional Neural Network):
+  
+  Built from scratch with 2–4 convolutional layers.
+  
+  Trained on grayscale and RGB fabric samples.
 
-Built from scratch with 2–4 convolutional layers.
+## Binary Pattern Classification:
+  
+  Applied thresholding and edge detection to extract binary textures.
+  
+  Evaluated handcrafted features for defect detection.
 
-Trained on grayscale and RGB fabric samples.
+## Ternary Pattern Analysis:
 
-Binary Pattern Classification:
+  Explored local ternary patterns (LTP) for enhanced texture robustness.
+  
+  Used them with shallow CNNs and traditional classifiers (SVM, KNN).
 
-Applied thresholding and edge detection to extract binary textures.
-
-Evaluated handcrafted features for defect detection.
-
-Ternary Pattern Analysis:
-
-Explored local ternary patterns (LTP) for enhanced texture robustness.
-
-Used them with shallow CNNs and traditional classifiers (SVM, KNN).
-
-🔍 Observations:
-These models performed reasonably well on simple defect categories but struggled with:
-
-Complex textures
-
-Lighting variations
-
-Small or overlapping defects
-
-Accuracy plateaued after a certain epoch even with hyperparameter tuning.
-
-Helped define our baseline and justify the need for deeper, pretrained models.
+## 🔍 Observations:
+  These models performed reasonably well on simple defect categories but struggled with:
+  
+  Complex textures
+  
+  Lighting variations
+  
+  Small or overlapping defects
+  
+  Accuracy plateaued after a certain epoch even with hyperparameter tuning.
+  
+  Helped define our baseline and justify the need for deeper, pretrained models.
 
 
 ---
